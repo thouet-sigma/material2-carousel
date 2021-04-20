@@ -1,15 +1,15 @@
 {
-  "name": "@ngbmodule/material-carousel",
-  "description": "Carousel component for Angular using Material Design.",
-  "version": "0.7.1",
+  "name": "@kdeenanauth/material-carousel",
+  "description": "Fork of @ngbmodule/material-carousel for Angular 11. Carousel component for Angular using Material Design.",
+  "version": "11.2.10.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabrielbusarello/material2-carousel.git"
+    "url": "https://github.com/kdeenanauth/material2-carousel.git"
   },
-  "author": "Gabriel Busarello <gabriel20053@gmail.com>",
+  "author": "Kevin Deenanauth <kevin@deenanauth.com>",
   "license": "MIT",
   "homepage": "https://gabrielbusarello.github.io/material2-carousel/",
-  "bugs": "https://github.com/gabrielbusarello/material2-carousel/issues",
+  "bugs": "https://github.com/kdeenanauth/material2-carousel/issues",
   "keywords": [
     "angular",
     "material",
