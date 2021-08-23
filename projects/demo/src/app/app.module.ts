@@ -18,24 +18,24 @@ import { MatCarouselModule } from '@ngbmodule/material-carousel';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    MatButtonModule,
-    MatCardModule,
-    MatCheckboxModule,
-    MatCarouselModule.forRoot(),
-    MatExpansionModule,
-    MatIconModule,
-    MatInputModule,
-    MatMenuModule,
-    MatSelectModule,
-    MatSnackBarModule,
-    MatToolbarModule,
-    MatTooltipModule
-  ],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        FormsModule,
+        MatButtonModule,
+        MatCardModule,
+        MatCheckboxModule,
+        MatCarouselModule.forRoot(),
+        MatExpansionModule,
+        MatIconModule,
+        MatInputModule,
+        MatMenuModule,
+        MatSelectModule,
+        MatSnackBarModule,
+        MatToolbarModule,
+        MatTooltipModule
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule {}

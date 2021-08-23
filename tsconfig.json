@@ -18,11 +18,7 @@
       "@ngbmodule/material-carousel/*": ["dist/carousel/*"]
     },
     "plugins": [
-      { "name": "@angular/language-service" },
-      {
-        "name": "typescript-tslint-plugin",
-        "alwaysShowRuleFailuresAsWarnings": true
-      }
+      { "name": "@angular/language-service" }
     ]
   },
   "angularCompilerOptions": {

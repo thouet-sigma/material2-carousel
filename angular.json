@@ -15,7 +15,7 @@
       },
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/carousel/tsconfig.lib.json",
             "project": "projects/carousel/ng-package.json"
@@ -35,14 +35,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/carousel/tsconfig.lib.json",
-              "projects/carousel/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/carousel/**/*.ts",
+              "projects/carousel/**/*.html"
             ]
           }
         }
@@ -141,14 +138,11 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/demo/tsconfig.app.json",
-              "projects/demo/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/demo//**/*.ts",
+              "projects/demo//**/*.html"
             ]
           }
         }
@@ -157,6 +151,7 @@
   },
   "defaultProject": "carousel",
   "cli": {
-    "analytics": "eee8f5cc-b6b7-42f8-adac-c0a89e7dee03"
+    "analytics": "eee8f5cc-b6b7-42f8-adac-c0a89e7dee03",
+    "defaultCollection": "@angular-eslint/schematics"
   }
 }
