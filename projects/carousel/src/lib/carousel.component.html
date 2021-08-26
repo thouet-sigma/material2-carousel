@@ -34,7 +34,7 @@
     type="button"
     tabindex="-1"
     [color]="color"
-    [disabled]="!loop && currentIndex == 0"
+    [disabled]="!loop && currentIndex === 0"
     (click)="previous()"
   >
     <mat-icon
@@ -51,7 +51,7 @@
     type="button"
     tabindex="-1"
     [color]="color"
-    [disabled]="!loop && currentIndex == slidesList.length - 1"
+    [disabled]="!loop && currentIndex === slidesList.length - 1"
     (click)="next()"
   >
     <mat-icon
@@ -75,7 +75,7 @@
       tabindex="-1"
       mat-mini-fab
       [color]="color"
-      [disabled]="i == currentIndex"
+      [disabled]="i === currentIndex"
       (click)="slideTo(i)"
       (focus)="carouselContainer.focus()"
     ></button>
