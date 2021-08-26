@@ -7,7 +7,7 @@
 
 ## EXTRA NOTICE
 
-This version has been further forked to upgrade it to use Angular 11.
+This version has been further forked to upgrade it to use Angular 11 and Angular 12.
 
 ## NOTICE
 Hi guys, how are you?

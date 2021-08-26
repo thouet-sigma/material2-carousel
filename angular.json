@@ -19,6 +19,11 @@
           "options": {
             "tsConfig": "projects/carousel/tsconfig.lib.json",
             "project": "projects/carousel/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/carousel/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
