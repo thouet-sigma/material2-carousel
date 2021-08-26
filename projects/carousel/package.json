@@ -1,7 +1,7 @@
 {
   "name": "@kdeenanauth/material-carousel",
-  "description": "Fork of @ngbmodule/material-carousel for Angular 11. Carousel component for Angular using Material Design.",
-  "version": "11.2.10.1",
+  "description": "Fork of @ngbmodule/material-carousel for Angular 11 and 12 (thanks to ez5504). Carousel component for Angular using Material Design.",
+  "version": "12.2.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/kdeenanauth/material2-carousel.git"
@@ -21,7 +21,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/material": "^10.0.1",
+    "@angular/material": "^12.2.0",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.6.0"
   }
