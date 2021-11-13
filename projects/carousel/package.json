@@ -1,15 +1,15 @@
 {
-  "name": "@kdeenanauth/material-carousel",
+  "name": "@adamkasper/material-carousel",
   "description": "Fork of @ngbmodule/material-carousel for Angular 11 and 12 (thanks to ez5504). Carousel component for Angular using Material Design.",
-  "version": "12.2.0",
+  "version": "13.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kdeenanauth/material2-carousel.git"
+    "url": "https://github.com/adamkasper/material2-carousel.git"
   },
-  "author": "Kevin Deenanauth <kevin@deenanauth.com>",
+  "author": "Adam Kasper <adam@obvio.cz>",
   "license": "MIT",
-  "homepage": "https://gabrielbusarello.github.io/material2-carousel/",
-  "bugs": "https://github.com/kdeenanauth/material2-carousel/issues",
+  "homepage": "https://github.com/adamkasper/material2-carousel",
+  "bugs": "https://github.com/adamkasper/material2-carousel/issues",
   "keywords": [
     "angular",
     "material",
@@ -18,7 +18,8 @@
     "module"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "@adamkasper:registry":"https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "@angular/material": "< 14.0.0",
