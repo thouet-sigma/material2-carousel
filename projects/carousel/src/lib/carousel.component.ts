@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { animate, style, AnimationBuilder } from "@angular/animations";
 import { ListKeyManager } from "@angular/cdk/a11y";
 import { isPlatformBrowser } from "@angular/common";
@@ -236,7 +238,7 @@ implements AfterContentInit, AfterViewInit, MatCarousel, OnDestroy {
   }
 
   @HostListener("mousewheel", ["$event"])
-  public onMouseWheel(event: MouseWheelEvent): void {
+  public onMouseWheel(event: any): void {
       if (this.useMouseWheel) {
           event.preventDefault(); // prevent window to scroll
           const Δ = Math.sign(event.deltaY);
