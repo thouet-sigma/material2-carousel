@@ -9,16 +9,12 @@
 
 This version has been further forked to upgrade it to use Angular 11 and Angular 12.
 
+Originally from : https://github.com/kdeenanauth/material2-carousel
+
+Then from : https://github.com/adamkasper/material2-carousel
+
 ## NOTICE
-Hi guys, how are you?
-
-I'm Gabriel Busarello, and I forked this project, because it have some nice features.
-
-The first author of this project is [Gabriel Sanches](https://github.com/gbrlsnchs), and he archived this awesome project, because he don't use Angular anymore. But I will very happy to can help de Open Source community.
-
-I want to help the community, and if you have some feature or issue, please contributte to this project. I will really appreciate that!
-
-Thank you!
+Wanting to add angular 13 / Material 13.
 
 ## About
 This package is a carousel component for Angular using Material Design.
@@ -122,8 +118,8 @@ import { MatCarouselSlide, MatCarouselSlideComponent } from '@ngbmodule/material
 
 ## Contributing
 ### How to help
-- For bugs and opinions, please [open an issue](https://github.com/gabrielbusarello/material2-carousel/issues/new)
-- For pushing changes, please [open a pull request](https://github.com/gabrielbusarello/material2-carousel/compare)
+- For bugs and opinions, please [open an issue](https://github.com/thouet-sigma/material2-carousel/issues/new)
+- For pushing changes, please [open a pull request](https://github.com/thouet-sigma/material2-carousel/compare)
 
 ### How to develop and test
 #### Testing

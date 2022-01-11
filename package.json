@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ghpages": "ng build demo --prod --output-path docs --base-href \"https://gabrielbusarello.github.io/material2-carousel/\" && cp docs/index.html docs/404.html"
+    "ghpages": "ng build demo --prod --output-path docs --base-href \"https://thouet-sigma.github.io/material2-carousel/\" && cp docs/index.html docs/404.html"
   },
   "private": true,
   "dependencies": {
