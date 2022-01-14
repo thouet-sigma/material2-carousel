@@ -14,8 +14,8 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2018", "dom"],
     "paths": {
-      "@ngbmodule/material-carousel": ["dist/carousel"],
-      "@ngbmodule/material-carousel/*": ["dist/carousel/*"]
+      "@thouet/material-carousel": ["dist/carousel"],
+      "@thouet/material-carousel/*": ["dist/carousel/*"]
     },
     "plugins": [
       { "name": "@angular/language-service" }
