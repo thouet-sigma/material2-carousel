@@ -1,7 +1,7 @@
 {
   "name": "@thouet/material-carousel",
   "description": "Fork of @ngbmodule/material-carousel for Angular 13. Carousel component for Angular using Material Design.",
-  "version": "13.0.4",
+  "version": "13.0.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/thouet-sigma/material2-carousel.git"
