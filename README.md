@@ -22,12 +22,12 @@ This package is a carousel component for Angular using Material Design.
 Until `v1` is reached, breaking changes may be introduced.
 
 ### Installing
-`npm install --save @ngbmodule/material-carousel`
+`npm install --save @thouet/material-carousel`
 
 ### Importing
 ```typescript
 //...
-import { MatCarouselModule } from '@ngbmodule/material-carousel';
+import { MatCarouselModule } from '@thouet/material-carousel';
 
 @NgModule({
   // ...
@@ -43,7 +43,7 @@ export class AppModule {}
 ## Usage
 ### `MatCarouselComponent`
 ```typescript
-import { MatCarousel, MatCarouselComponent } from '@ngbmodule/material-carousel';
+import { MatCarousel, MatCarouselComponent } from '@thouet/material-carousel';
 ```
 ```html
 <mat-carousel>
@@ -99,7 +99,7 @@ Play around with the [demo](https://gabrielbusarello.github.io/material2-carouse
 
 ### `MatCarouselSlideComponent`
 ```typescript
-import { MatCarouselSlide, MatCarouselSlideComponent } from '@ngbmodule/material-carousel';
+import { MatCarouselSlide, MatCarouselSlideComponent } from '@thouet/material-carousel';
 ```
 ```html
 <mat-carousel>
