@@ -1,20 +1,20 @@
 # Material Carousel
 [![Build Status](https://travis-ci.org/gabrielbusarello/material2-carousel.svg?branch=master)](https://travis-ci.org/gabrielbusarello/material2-carousel)
-[![npm version](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel.svg)](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel)
-[![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://gabrielbusarello.github.io/material2-carousel/)
+[![npm version](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel.svg)](https://www.npmjs.com/package/@thouet/material-carousel)
+[![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://thouet-sigma.github.io/material2-carousel/)
 
-[![Material2 Carousel](./projects/demo/src/assets/Biglogo.png)](https://github.com/gabrielbusarello/material2-carousel)
+[![Material2 Carousel](./projects/demo/src/assets/Biglogo.png)](https://github.com/thouet-sigma/material2-carousel)
 
 ## EXTRA NOTICE
 
-This version has been further forked to upgrade it to use Angular 11 and Angular 12.
+This version has been further forked to upgrade it to use Angular 13.
 
 Originally from : https://github.com/kdeenanauth/material2-carousel
 
 Then from : https://github.com/adamkasper/material2-carousel
 
 ## NOTICE
-Wanting to add angular 13 / Material 13.
+
 
 ## About
 This package is a carousel component for Angular using Material Design.
