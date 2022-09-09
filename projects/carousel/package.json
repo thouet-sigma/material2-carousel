@@ -1,7 +1,7 @@
 {
   "name": "@thouet/material-carousel",
-  "description": "Fork of @ngbmodule/material-carousel for Angular 13. Carousel component for Angular using Material Design.",
-  "version": "13.0.5",
+  "description": "Fork of @ngbmodule/material-carousel for Angular 14. Carousel component for Angular using Material Design.",
+  "version": "14.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/thouet-sigma/material2-carousel.git"
@@ -22,7 +22,7 @@
     "@thouet:registry":"https://registry.npmjs.org"
   },
   "peerDependencies": {
-    "@angular/material": "< 14.0.0",
+    "@angular/material": "~14.2.1",
     "hammerjs": "^2.0.8",
     "rxjs": "^6.6.7"
   }
